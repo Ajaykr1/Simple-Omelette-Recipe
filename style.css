@@ -1,0 +1,110 @@
+body{
+    background-color: #f3e5d8;
+}
+
+.box{
+height: 1662px;
+width: 590px;
+background-color: whitesmoke;
+position:relative;
+margin-top: 100px;
+margin-bottom: 100px;
+margin-left: 33%;
+inset: 0;
+border-radius: 1rem;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+img{
+    margin: 20px;
+border-radius: 0.4rem;
+}
+
+h2{
+   margin-left: 20px;
+  font-size: 1.8rem;
+ }
+
+ul{
+    color: #534f47;
+    font-weight: bold;
+}
+
+ p{
+    margin: 20px;
+    font-family: cursive;
+ }
+
+ h3{
+    margin: 20px;
+    color: #810b81;
+    font-family: cursive;
+ }
+
+ .preparation_time{
+    background-color: #FFF4FA;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #534f47;
+    font-weight: bold;
+
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+ }
+
+h2{
+    color: sienna;
+}
+
+hr{
+    margin: 20px;
+}
+
+.instruction{
+    margin: 20px;
+    color: #534f47;
+
+}
+.nutrition1{
+    margin: 20px;
+  
+}
+h4{
+    margin: 20px;
+    color: #534f47;
+
+}
+
+ol li::marker {
+    color:#a0522d;
+}
+
+.calories{
+    display: flex;
+    margin: 20px;
+    padding: 50px;
+}
+
+.nutritions-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td strong {
+    color:#a0522d;
+    
+  }
+  
+  .nutritions-table td {
+    padding: 10px 20px;
+  }
+  
+  .nutritions-table tr {
+    border-bottom: 1px solid gray;
+  }
+  
+  .nutritions-table tr:last-child {
+    border-bottom: none;
+  }
+  
